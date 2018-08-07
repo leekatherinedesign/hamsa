@@ -1,0 +1,189 @@
+html{
+  padding: 1% 1%;
+}
+
+body{
+  margin: 0;
+  background-image: url("images/fridge.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.control-cnt{
+  width: 100%;
+  height: 95vh;
+  border: double;
+  border-radius: 3px
+}
+
+.control{
+  position: relative;
+  width: 20%; height: 19vh;
+  float: left;
+  z-index: 10;
+}
+
+.hasma{
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+}
+
+img{
+  cursor: pointer;
+}
+
+#actualbox{
+  text-align: center;
+  border-style: double;
+  background-color: #ead27e;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  padding: 5px;
+  display: none;
+}
+
+#actualbox{
+  font-family: 'Press Start 2P', cursive;
+}
+
+#x{
+  border-bottom: 1px solid black;
+  text-align: right;
+  cursor: pointer;
+}
+
+.work{
+  font-family: 'Press Start 2P', cursive;
+  color: grey;
+}
+
+#note{
+  font-family: 'Press Start 2P', cursive;
+  background-color: #fff1c0;
+  border-style: dotted;
+  padding: 5px;
+  color: #ce7fd0;
+}
+
+strong{
+  color: red;
+}
+
+#actualinstructions{
+  font-size: 60%;
+}
+
+#actualwin{
+  display: none;
+  font-size: 60%;
+  color: grey;
+}
+
+.wow{
+  font-size: large;
+  color: #ce7fd0;
+}
+
+#actuallose{
+  display: none;
+  font-size: 60%;
+}
+
+#halfway{
+  display: none;
+}
+
+.not{
+  color:red;
+  font-size: large;
+}
+
+svg{
+  width:27vw;
+}
+
+circle{
+  transition: 100ms;
+}
+
+.hover-1:hover ~ .hasma svg circle{
+  cx:129; cy:335; r:33;
+}
+.hover-2:hover ~ .hasma svg circle{
+  cx:139; cy:335; r:33;
+}
+.hover-3:hover ~ .hasma svg circle{
+  cx:149; cy:335; r:33;
+}
+.hover-4:hover ~ .hasma svg circle{
+  cx:159 ; cy:335; r:33;
+}
+.hover-5:hover ~ .hasma svg circle{
+  cx:169; cy:335; r:33;
+}
+.hover-6:hover ~ .hasma svg circle{
+  cx:129; cy:340; r:33;
+}
+.hover-7:hover ~ .hasma svg circle{
+  cx:139; cy:340; r:33;
+}
+.hover-8:hover ~ .hasma svg circle{
+  cx:149; cy:340; r:33;
+}
+.hover-9:hover ~ .hasma svg circle{
+  cx:159; cy:340; r:33;
+}
+.hover-10:hover ~ .hasma svg circle{
+  cx:169; cy:340; r:33;
+}
+.hover-11:hover ~ .hasma svg circle{
+  cx:129; cy:345; r:33;
+}
+.hover-12:hover ~ .hasma svg circle{
+  cx:139; cy:345; r:33;
+}
+.hover-13:hover ~ .hasma svg circle{
+  cx:149; cy:345; r:33;
+}
+.hover-14:hover ~ .hasma svg circle{
+  cx:159; cy:345; r:33;
+}
+.hover-15:hover ~ .hasma svg circle{
+  cx:169; cy:345; r:33;
+}
+.hover-16:hover ~ .hasma svg circle{
+  cx:129; cy:350; r:33;
+}
+.hover-17:hover ~ .hasma svg circle{
+  cx:139; cy:350; r:33;
+}
+.hover-18:hover ~ .hasma svg circle{
+  cx:149; cy:350; r:33;
+}
+.hover-19:hover ~ .hasma svg circle{
+  cx:159; cy:350; r:33;
+}
+.hover-20:hover ~ .hasma svg circle{
+  cx:169; cy:350; r:33;
+}
+.hover-21:hover ~ .hasma svg circle{
+  cx:129; cy:355; r:33;
+}
+.hover-22:hover ~ .hasma svg circle{
+  cx:139; cy:355; r:33;
+}
+.hover-23:hover ~ .hasma svg circle{
+  cx:149; cy:355; r:33;
+}
+.hover-24:hover ~ .hasma svg circle{
+  cx:159; cy:355; r:33;
+}
+.hover-25:hover ~ .hasma svg circle{
+  cx:169; cy:355; r:33;
+}
