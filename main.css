@@ -4,7 +4,7 @@ html{
 
 body{
   margin: 0;
-  background-image: url("images/fridge.jpg");
+  background: url("images/fridge.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
